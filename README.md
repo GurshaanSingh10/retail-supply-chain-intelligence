@@ -2,6 +2,10 @@
 
 An analytics project that combines SQL-based inventory analysis, machine learning, and an interactive Streamlit dashboard to identify products at risk of backorder.
 
+## Dashboard Preview
+
+![Retail Supply Chain Dashboard](screenshots/dashboard.png)
+
 ## Business Problem
 
 Inventory shortages can disrupt fulfilment and increase operational costs. This project analyses product inventory, demand forecasts, past sales, and supplier-related indicators to identify potential backorder risk and support inventory review decisions.
