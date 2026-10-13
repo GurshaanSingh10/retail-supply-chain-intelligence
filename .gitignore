@@ -1,0 +1,30 @@
+# Python environment and cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Secrets
+.env
+.env.*
+
+# macOS
+.DS_Store
+
+# Raw datasets
+data/raw/
+
+# Generated row-level datasets and predictions
+data/processed/train_analysis.csv
+data/processed/validation_risk_predictions.csv
+
+# Generated reports (keep locally for now)
+data/processed/high_risk_action_report.csv
+data/processed/high_risk_action_report.xlsx
+
+# Local diagnostic output
+profile_output.txt
+validation_output.txt
+
+# Keep generated analysis outputs local
+data/processed/
